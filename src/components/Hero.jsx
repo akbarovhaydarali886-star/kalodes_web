@@ -114,7 +114,7 @@ export default function Hero({ onOpenOrderModal }) {
 
         {/* Floating Stats Block */}
         <div className="mt-16 sm:mt-20">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 max-w-4xl mx-auto">
             {STATS.map((stat, idx) => (
               <div
                 key={idx}

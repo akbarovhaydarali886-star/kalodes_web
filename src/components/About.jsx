@@ -116,8 +116,8 @@ export default function About() {
 
         </div>
 
-        {/* 4 Advantage Cards */}
-        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* 3 Advantage Cards */}
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
           {advantages.map((adv, idx) => {
             const Icon = adv.icon;
             return (

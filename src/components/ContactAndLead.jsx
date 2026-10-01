@@ -144,36 +144,38 @@ export default function ContactAndLead() {
         </div>
 
         {/* Lead Form & Working Hours Block */}
-        <div className="mt-12 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <div className="mt-12 grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
           
           {/* Working Info Box */}
-          <div className="lg:col-span-5 space-y-6">
-            <div className="p-6 sm:p-8 rounded-3xl bg-white border border-stone-200 shadow-sm space-y-6">
-              <h3 className="text-xl font-black text-stone-900 flex items-center gap-2">
-                <Droplets className="w-5 h-5 text-amber-700" />
-                <span>Время работы и география</span>
-              </h3>
+          <div className="lg:col-span-5 h-full">
+            <div className="p-6 sm:p-8 rounded-3xl bg-white border border-stone-200 shadow-sm h-full flex flex-col justify-between">
+              <div>
+                <h3 className="text-xl font-black text-stone-900 flex items-center gap-2 mb-6">
+                  <Droplets className="w-5 h-5 text-amber-700" />
+                  <span>Время работы и география</span>
+                </h3>
 
-              <div className="space-y-4 text-sm text-stone-600">
-                <div className="flex items-start gap-3">
-                  <MapPin className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
-                  <div>
-                    <span className="font-bold text-stone-900 block">Территория обслуживания:</span>
-                    <span>Москва, Московская область и ближайшие регионы по договоренности.</span>
+                <div className="space-y-4 text-sm text-stone-600">
+                  <div className="flex items-start gap-3">
+                    <MapPin className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+                    <div>
+                      <span className="font-bold text-stone-900 block">Территория обслуживания:</span>
+                      <span>Москва, Московская область и ближайшие регионы по договоренности.</span>
+                    </div>
                   </div>
-                </div>
 
-                <div className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-amber-700 shrink-0 mt-0.5" />
-                  <div>
-                    <span className="font-bold text-stone-900 block">Бесплатная геологическая оценка:</span>
-                    <span>Укажите свой район, и мы заранее сообщим примерный уровень воды и необходимый материал.</span>
+                  <div className="flex items-start gap-3">
+                    <CheckCircle2 className="w-5 h-5 text-amber-700 shrink-0 mt-0.5" />
+                    <div>
+                      <span className="font-bold text-stone-900 block">Бесплатная геологическая оценка:</span>
+                      <span>Укажите свой район, и мы заранее сообщим примерный уровень воды и необходимый материал.</span>
+                    </div>
                   </div>
                 </div>
               </div>
 
               {/* Fast Direct Telegram CTA */}
-              <div className="p-4 rounded-2xl bg-[#faf6f0] border border-[#ecdcc8] flex items-center justify-between">
+              <div className="mt-8 p-4 rounded-2xl bg-[#faf6f0] border border-[#ecdcc8] flex items-center justify-between">
                 <div>
                   <p className="text-xs text-amber-900 font-bold">Не любите ждать?</p>
                   <p className="text-xs text-stone-600">Получите ответ в Telegram за 5 минут</p>
@@ -192,7 +194,7 @@ export default function ContactAndLead() {
           </div>
 
           {/* Direct Telegram Lead Block */}
-          <div className="lg:col-span-7 bg-white border border-stone-200/90 rounded-3xl p-8 sm:p-12 shadow-lg relative flex flex-col items-center justify-center text-center">
+          <div className="lg:col-span-7 bg-white border border-stone-200/90 rounded-3xl p-8 sm:p-12 shadow-lg relative flex flex-col items-center justify-center text-center h-full">
             <div className="w-24 h-24 bg-[#e5f5ff] rounded-full flex items-center justify-center mb-6 shadow-inner">
               <Send className="w-12 h-12 text-[#2AABEE]" />
             </div>
