@@ -29,7 +29,7 @@ export default function Footer() {
               </div>
               <div>
                 <span className="font-black text-xl text-white tracking-tight">
-                  QUDUQ <span className="text-amber-400">MASTER</span>
+                  KALODEZ <span className="text-amber-400">MASTER</span>
                 </span>
                 <p className="text-xs text-stone-400 font-medium">Мастер: Акмаль</p>
               </div>
@@ -123,7 +123,7 @@ export default function Footer() {
 
         {/* Bottom copyright and to top button */}
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
-          <p>© {new Date().getFullYear()} Quduq Master. Все права защищены.</p>
+          <p>© {new Date().getFullYear()} Kalodez Master. Все права защищены.</p>
           
           <div className="flex items-center gap-6">
             <button

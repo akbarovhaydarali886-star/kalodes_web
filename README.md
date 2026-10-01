@@ -1,6 +1,6 @@
-# Quduq Master — Landing Page
+# Kalodez Master — Landing Page
 
-"Quduq Master" (Ustasi: Akmal) professional quduq (kolodez) qazish, tozalash, chuqurlashtirish va beton halqalar o'rnatish biznesi uchun zamonaviy va responsiv Landing Page sayti.
+"Kalodez Master" (Ustasi: Akmal) professional quduq (kolodez) qazish, tozalash, chuqurlashtirish va beton halqalar o'rnatish biznesi uchun zamonaviy va responsiv Landing Page sayti.
 
 ---
 

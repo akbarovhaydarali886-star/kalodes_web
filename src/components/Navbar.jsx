@@ -39,7 +39,7 @@ export default function Navbar({ onOpenOrderModal }) {
             <div>
               <div className="flex items-center gap-2">
                 <span className="font-extrabold text-lg sm:text-xl text-stone-900 tracking-tight">
-                  QUDUQ <span className="text-amber-600">MASTER</span>
+                  KALODEZ <span className="text-amber-600">MASTER</span>
                 </span>
               </div>
               <p className="text-xs text-stone-600 font-medium">Мастер: Акмаль</p>
